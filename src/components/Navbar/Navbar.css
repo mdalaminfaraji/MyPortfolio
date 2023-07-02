@@ -1,0 +1,30 @@
+a {
+    color: #FFFFFF !important;
+    font-size: 20px !important;
+}
+
+.icon-color {
+    color: #54FFBB !important;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+a:hover {
+    color: #54FFBB !important;
+    background-color: #000000;
+}
+
+.hire-btn {
+    color: #000000;
+    background-color: rgb(84, 255, 187);
+    width: 100%;
+}
+
+.p-link a{
+    color: #FFFFFF !important;
+}
+
+.p-link a:hover {
+    background-color: #54FFBB;
+    color: #000000 !important;
+}
