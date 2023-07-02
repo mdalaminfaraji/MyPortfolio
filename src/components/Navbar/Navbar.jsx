@@ -3,7 +3,7 @@ import { AiOutlineHome, AiOutlineProject, AiOutlineUser } from 'react-icons/ai';
 import { BiMessageSquareDetail } from 'react-icons/bi';
 import './Navbar.css';
 import Typed from 'react-typed';
-import avatar from '../../../src/assets/avatar.jpeg';
+import avatar from '../../../src/assets/avater.jpg';
 
 const Navbar = () => {
 
@@ -61,25 +61,25 @@ const Navbar = () => {
                                     loop
                                     strings={[
                                         'Frontend Developer ',
-                                        'MERN Stack Developer '
+                                        'MERN Stack Developer ',
+                                        'JavaScript Developer'
                                     ]}
                                 />
                             </div>
                         </div>
                         <div className="p-4">
-                            <img className='h-52 rounded-3xl' src={avatar} alt="" />
+                            <img className='h-40 rounded-full' src={avatar} alt="" />
                         </div>
-                        <h2 className='text-xl text-white'>Dhaka, Bangladesh</h2>
-                        <h3 className='text-white'>selimhossain.sh1@gmail.com</h3>
+                        <h2 className='text-xl text-white'>Narail, Bangladesh</h2>
+                        <h3 className='text-white'>alaminice1617@gmail.com</h3>
 
-                        <button onClick={handleHire} className='hire-btn my-5 py-3 rounded-3xl uppercase hover:text-[#54FFBB] hover:bg-inherit border border-[#54FFBB]'>Hire me!</button>
+                        <button onClick={handleHire} className='btn-primary btn   my-5 py-3 rounded-3xl uppercase hover:text-[#54FFBB] hover:bg-inherit border border-[#54FFBB]'>Hire me!</button>
 
                         <div className="border-t-4 border-b-4 md:w-1/3 w-1/2 py-1 mx-auto mt-2 text-center">
                             <span className="text-xl uppercase bg-gradient-to-r from-[#FFFFFF] via-[#54FFBB] to-[#FFFFFF] text-transparent bg-clip-text">Academic</span>
                         </div>
-                        <p className="text-white mt-4">B.Sc. in Computer Science & Engineering</p>
-                        <p className="text-white font-light text-sm">City University of Bangladesh</p>
-                        <p className="text-white font-light text-sm">( 04/2018 - 10/2022 )</p>
+                        <p className="text-white mt-4">B.Sc. in ICT</p>
+                        <p className="text-white font-light text-sm">Islamic University of Bangladesh</p>
 
                         <div className="border-t-4 border-b-4 md:w-1/3 w-1/2 py-1 mx-auto text-center mt-4">
                             <span className="text-xl uppercase bg-gradient-to-r from-[#FFFFFF] via-[#54FFBB] to-[#FFFFFF] text-transparent bg-clip-text">Training</span>
