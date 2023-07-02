@@ -12,7 +12,7 @@ const Header = () => {
     //     window.location.href = '#projects';
     // }
     return (
-        <div className="md:h-[100vh] pt-16">
+        <div className="md:h-[100vh] pt-16 mb-10">
             <div className="px-5" data-aos="fade-down" data-aos-duration="2000">
                 <h1 className="text-white text-5xl uppercase">Hey, I&apos;m <br /><span className='bg-gradient-to-r from-[#FFFFFF] via-[#54FFBB] to-[#FFFFFF] text-transparent bg-clip-text'> <ReactTyped
                                     className='text-3xl bg-gradient-to-r from-[#FFFFFF] via-[#54FFBB] to-[#FFFFFF] text-transparent bg-clip-text'
@@ -29,8 +29,13 @@ const Header = () => {
                 </p>
             </div>
 
-
+            <div data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom" data-aos-duration="2000" className="flex justify-center gap-5 pt-4">
+                <button onClick={handleResume} className="text-white py-4 border border-[#54FFBB] hover:bg-[#54FFBB] hover:text-black px-8 rounded-md">My Resume<FaDownload className='inline-flex ml-1'></FaDownload> </button>
+                {/* <button onClick={handleProject} className="text-black py-4 bg-[#54FFBB] px-8 rounded-md hover:bg-inherit hover:text-white border border-[#54FFBB]">Projects</button> */}
+            </div>
             <div className="bg-circle mx-auto mt-5">
+                
             <div className="flex justify-center pt-8">
                     <div className='-mt-4'>
                         <div className="flex flex-row text-white ms-32 ">
@@ -67,11 +72,7 @@ const Header = () => {
 
 
 
-            <div data-aos="fade-up"
-                data-aos-anchor-placement="top-bottom" data-aos-duration="2000" className="flex justify-center gap-5 pt-4">
-                <button onClick={handleResume} className="text-white py-4 border border-[#54FFBB] hover:bg-[#54FFBB] hover:text-black px-8 rounded-md">My Resume<FaDownload className='inline-flex ml-1'></FaDownload> </button>
-                {/* <button onClick={handleProject} className="text-black py-4 bg-[#54FFBB] px-8 rounded-md hover:bg-inherit hover:text-white border border-[#54FFBB]">Projects</button> */}
-            </div>
+  
         </div>
     );
 };

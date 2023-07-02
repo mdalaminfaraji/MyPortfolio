@@ -6,22 +6,22 @@ import { FcApproval } from "react-icons/fc";
 const Projects = () => {
 
     const handlePMLive = () => {
-        window.location.href = 'https://precision-martial.web.app/';
+        window.location.href = 'https://languageladder-b7cf6.web.app/';
     }
     const handlePMGitHub = () => {
-        window.location.href = 'https://github.com/selim121/precision-martial-client';
+        window.location.href = 'https://github.com/mdalaminfaraji/LanguageLadder-client';
     }
     const handleToyLive = () => {
-        window.location.href = 'https://toycratex.web.app';
+        window.location.href = 'https://robotoysworld.web.app/';
     }
     const handleToyGitHub = () => {
-        window.location.href = 'https://github.com/selim121/toy-crate-x-client';
+        window.location.href = 'https://github.com/mdalaminfaraji/ToyRobotMarketPlace-client';
     }
     const handleZestfulLive = () => {
-        window.location.href = 'https://zestful-d961f.web.app';
+        window.location.href = 'https://ambitious-kitchen-262f3.web.app/';
     }
     const handleZestfulGitHub = () => {
-        window.location.href = 'https://github.com/selim121/zestful-client';
+        window.location.href = 'https://github.com/mdalaminfaraji/Amibitus-kitchen-client';
     }
 
     return (
@@ -31,12 +31,12 @@ const Projects = () => {
             </div>
 
             {/* precision martial website */}
-            <div data-aos="fade-up" data-aos-duration="2000" className=" space-y-2 grid grid-cols-1 lg:grid-cols-2 gap-4 p-3 rounded-xl bg-[#54FFBB] hover:bg-[#1e1546] border-2 border-[#3a2888]">
-                <div className="">
-                    <img className='rounded-xl w-full h-full' src={pmImg} alt="" />
+            <div data-aos="fade-up" data-aos-duration="2000" className=" space-y-2 grid grid-cols-1 lg:grid-cols-2 gap-4 p-3 rounded-xl bg-[#54FFBB] hover:text-white  hover:bg-[#1e1546] border-2 border-[#3a2888]">
+                <div className="w-full h-48 overflow-auto touch-auto">
+                    <img className='rounded-xl w-[150%] max-w-none h-auto' src={pmImg} alt="" />
                 </div>
-                <div className=" hover:text-white text-start">
-                    <h1 className='text-xl'>Precision Martial (<span className='text-sm font-light'> A Martial School </span>)</h1>
+                <div className=" text-start">
+                    <h1 className='text-xl'>LanguageLadder (<span className='text-sm font-light'> Learning Platform </span>)</h1>
                     <div className="mt-2">
                         <div className="flex items-center gap-3">
                             <FcApproval></FcApproval>
@@ -76,12 +76,12 @@ const Projects = () => {
             </div>
 
             {/* toy-crate-x website */}
-            <div data-aos="fade-up" data-aos-duration="2000" className=" space-y-2 grid grid-cols-1 lg:grid-cols-2 gap-4 p-3 rounded-xl bg-[#54FFBB] hover:bg-[#1e1546] border-2 border-[#3a2888]">
-                <div className="hover:text-white">
-                    <img className='rounded-xl h-full' src={toyImg} alt="" />
+            <div data-aos="fade-up" data-aos-duration="2000" className=" space-y-2 grid grid-cols-1 lg:grid-cols-2 gap-4 p-3 rounded-xl bg-[#54FFBB]  hover:text-white hover:bg-[#1e1546] border-2 border-[#3a2888]">
+                <div className="w-full h-48 overflow-auto touch-auto">
+                    <img className='rounded-xl w-[150%] max-w-none h-auto' src={toyImg} alt="" />
                 </div>
-                <div className=" hover:text-white text-start">
-                    <h1 className='text-xl'>ToyCrateX (<span className='text-sm font-light'> A Toy Marketplace </span>)</h1>
+                <div className=" text-start">
+                    <h1 className='text-xl'>RoboToysWorld (<span className='text-sm font-light'> A Toy Marketplace </span>)</h1>
                     <div className="mt-2">
                         <div className="flex items-center gap-3">
                             <FcApproval></FcApproval>
@@ -111,10 +111,6 @@ const Projects = () => {
                             <FcApproval></FcApproval>
                             <p className='font-light'>Interactive category section</p>
                         </div>
-                        <div className="flex items-center gap-3">
-                            <FcApproval></FcApproval>
-                            <p className='font-light'>Engaging FAQ section</p>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -125,12 +121,12 @@ const Projects = () => {
             </div>
 
             {/* zestful website */}
-            <div data-aos="fade-up" data-aos-duration="2000" className=" space-y-2 grid grid-cols-1 lg:grid-cols-2 gap-4 p-3 rounded-xl bg-[#54FFBB] hover:bg-[#1e1546] border-2 border-[#3a2888]">
-                <div className="">
-                    <img className='rounded-xl w-full h-full' src={zestfulImg} alt="" />
+            <div data-aos="fade-up" data-aos-duration="2000" className=" space-y-2 grid grid-cols-1 lg:grid-cols-2 gap-4 p-3 rounded-xl bg-[#54FFBB] hover:bg-[#1e1546]  hover:text-white border-2 border-[#3a2888]">
+                <div className="w-full h-48 overflow-auto touch-auto">
+                    <img className='rounded-xl w-[150%] max-w-none h-auto' src={zestfulImg} alt="" />
                 </div>
-                <div className=" hover:text-white text-start">
-                    <h1 className='text-xl'>Zestful (<span className='text-sm font-light'> Serve food by Master Chefs </span>)</h1>
+                <div className=" text-start">
+                    <h1 className='text-xl'>Ambitious kitchen (<span className='text-sm font-light'> Serve food by Master Chefs </span>)</h1>
                     <div className="mt-2">
                         <div className="flex items-center gap-3">
                             <FcApproval></FcApproval>
