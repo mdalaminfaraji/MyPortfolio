@@ -1,7 +1,12 @@
 import ProgressBar from 'react-animated-progress-bar';
-
+import Marquee from "react-fast-marquee";
+import myImage from "../../assets/avater.jpg";
+import { FaBootstrap, FaCss3, FaGithub, FaHtml5, FaNodeJs, FaReact } from 'react-icons/fa';
+import { SiExpress, SiFirebase, SiJavascript, SiMongodb, SiTailwindcss } from 'react-icons/si';
 const AboutMe = () => {
-
+    const handleHire = () => {
+        window.location.href = '#contact';
+    }
     return (
         <div id="about" className="py-24">
             <div className="text-center px-5">
@@ -12,11 +17,20 @@ const AboutMe = () => {
             </div>
             <div className="text-white text-start mt-5 px-5">
                 <h3 className="text-xl font-bold mb-2">Explore My Profile!</h3>
-                <p className="opacity-80 text-justify leading-relaxed">
-                    As a Frontend Web Developer, I specialize in crafting engaging user interfaces and front-end components for Websites and Web Applications, driving their overall success. Take a look at my portfolio in the Projects section to see some of my work. <br /> <br />
-                    I am actively seeking Job opportunities where I can contribute, learn, and grow. If you have a suitable opportunity that aligns with my skills and experience, please don&apos;t hesitate to reach out to me. Let&apos;s explore how we can work together to achieve great results. <br /> <br />
-                    Additionally, I have a solid understanding of the MERN stack, which includes MongoDB, Express.js, React.js, and Node.js. I am continually expanding my knowledge in this area and excited to apply my skills as a MERN stack developer.
-                </p>
+                <div className='grid grid-cols-1 md:grid-cols-2'>
+                <p>
+                     <img src={myImage} className='rounded-full p-5 '></img>
+                    </p>
+                  <p className="opacity-80 text-justify leading-relaxed">
+                   Hi, My Name is Alamin Faraji. I am a junior Frontend Developer From Bangladesh. I have done developing many web projects with extensive experience and I enjoy making websites. Adept in user interface, Branding & creating attractive, Fully Responsive and Bringing forth expertise in design. I always strive to achieve the best results and Enhance my skills. <br /> <br />
+                   Name: Md Alamin Faraji<br/>
+                   Phone Number: +8801518420973<br/>
+                   Address: Narail, Bangladesh<br/>
+                   Email: alaminice1617@gmail.com<br/>
+                   <button onClick={handleHire} className='btn-primary btn   my-5 py-3 rounded-3xl uppercase hover:text-[#54FFBB] hover:bg-inherit border border-[#54FFBB]'>Hire me!</button>
+                </p>  
+                </div>
+
             </div>
 
             <h3 className="text-xl text-white text-start font-bold mb-2 mt-12 px-5">Explore My Skills!</h3>
@@ -215,6 +229,43 @@ const AboutMe = () => {
                         />
                     </div>
                 </div>
+            </div>
+            <div className='hidden md:flex'>
+            <Marquee>
+             <div className='border p-4 mr-2 rounded-full bg-[#54FFBB] text-black'>
+                <FaHtml5></FaHtml5>
+             </div>
+             <div className='border p-4 mr-2 rounded-full bg-[#54FFBB] text-black'>
+                <FaCss3></FaCss3>
+             </div>
+             <div className='border p-4 mr-2 rounded-full bg-[#54FFBB] text-black'>
+                <FaReact></FaReact>
+             </div>
+             <div className='border p-4 mr-2 rounded-full bg-[#54bdff] text-black'>
+                <FaNodeJs></FaNodeJs>
+             </div>
+             <div className='border p-4 mr-2 rounded-full bg-[#54FFBB] text-black'>
+                <SiExpress></SiExpress>
+             </div>
+             <div className='border p-4 mr-2 rounded-full bg-[#54FFBB] text-black'>
+                <SiMongodb></SiMongodb>
+             </div>
+             <div className='border p-4 mr-2 rounded-full bg-[#54FFBB] text-black'>
+                <FaGithub></FaGithub>
+             </div>
+             <div className='border p-4 mr-2 rounded-full bg-[#54FFBB] text-black'>
+                <SiJavascript></SiJavascript>
+             </div>
+             <div className='border p-4 mr-2 rounded-full bg-[#54FFBB] text-black'>
+                <SiFirebase></SiFirebase>
+             </div>
+             <div className='border p-4 mr-2 rounded-full bg-[#54FFBB] text-black'>
+                <FaBootstrap></FaBootstrap>
+             </div>
+             <div className='border p-4 mr-2 rounded-full bg-[#54FFBB] text-black'>
+                <SiTailwindcss></SiTailwindcss>
+             </div>
+            </Marquee>
             </div>
 
         </div>

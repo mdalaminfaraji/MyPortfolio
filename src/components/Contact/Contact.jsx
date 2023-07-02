@@ -1,5 +1,5 @@
-import { AiFillFacebook, AiFillGithub, AiFillLinkedin, AiFillTwitterSquare } from 'react-icons/ai';
-import { BiWorld } from 'react-icons/bi';
+import { AiFillFacebook, AiFillGithub, AiFillLinkedin, } from 'react-icons/ai';
+
 
 const Contact = () => {
     const getCurrentYear = () => {
@@ -17,11 +17,11 @@ const Contact = () => {
 
                 <form className="border rounded-lg p-12 lg:w-2/3 bg-[#1e1546] text-white shadow-2xl" action="https://formsubmit.co/alaminice1617@gmail.com" method="POST">
                     <p className="text-start text-xl mb-2">Name</p>
-                    <input className="bg-base-200 w-full px-5 py-3 rounded-md input input-bordered input-success" type="text" placeholder="Enter Your Name" name="name" id="" />
+                    <input className="bg-base-200 text-black w-full px-5 py-3 rounded-md input input-bordered input-success" type="text" placeholder="Enter Your Name" name="name" id="" />
                     <p className="text-start text-xl mb-2 mt-8">Email</p>
-                    <input className="bg-base-200 w-full px-5 py-3 rounded-md input input-bordered input-success" type="email" placeholder="Enter Your Email" name="email" id="" />
+                    <input className="bg-base-200 text-black w-full px-5 py-3 rounded-md input input-bordered input-success" type="email" placeholder="Enter Your Email" name="email" id="" />
                     <p className="text-start text-xl mb-2 mt-8">Message</p>
-                    <textarea className="textarea textarea-success w-full" placeholder="Enter Your Message" name="message"></textarea>
+                    <textarea className="textarea textarea-success w-full text-black" placeholder="Enter Your Message" name="message"></textarea>
                     <div className="mt-12 flex lg:justify-end justify-center">
                         <button className="uppercase px-12 py-3 btn btn-primary rounded-lg">Submit</button>
                     </div>

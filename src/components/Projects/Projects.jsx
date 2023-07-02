@@ -25,7 +25,7 @@ const Projects = () => {
     }
 
     return (
-        <div id='projects'>
+        <div id='projects' className='mr-3'>
             <div className="border-t-4 border-b-4 w-1/2 md:w-1/3 py-3 mx-auto mb-12">
                 <span className="text-2xl uppercase bg-gradient-to-r from-[#FFFFFF] via-[#54FFBB] to-[#FFFFFF] text-transparent bg-clip-text">Projects</span>
             </div>
@@ -71,8 +71,8 @@ const Projects = () => {
             </div>
 
             <div className="flex justify-center gap-5 mt-8 mb-24">
-                <button onClick={handlePMLive} className="text-white py-4 border border-[#54FFBB] hover:bg-[#54FFBB] hover:text-black px-8 rounded-md">Live Preview</button>
-                <button onClick={handlePMGitHub} className="text-black py-4 bg-[#54FFBB] px-8 rounded-md hover:bg-inherit hover:text-white border border-[#54FFBB]">GitHub</button>
+                <button onClick={handlePMLive} className="text-white  border border-[#54FFBB] hover:bg-[#54FFBB] hover:text-black btn btn-primary rounded-md">Live Preview</button>
+                <button onClick={handlePMGitHub} className="text-black btn btn-primary bg-[#54FFBB]  rounded-md hover:bg-inherit hover:text-white border border-[#54FFBB]">GitHub</button>
             </div>
 
             {/* toy-crate-x website */}
@@ -116,8 +116,8 @@ const Projects = () => {
             </div>
 
             <div className="flex justify-center gap-5 mt-8 mb-24">
-                <button onClick={handleToyLive} className="text-white py-4 border border-[#54FFBB] hover:bg-[#54FFBB] hover:text-black px-8 rounded-md">Live Preview</button>
-                <button onClick={handleToyGitHub} className="text-black py-4 bg-[#54FFBB] px-8 rounded-md hover:bg-inherit hover:text-white border border-[#54FFBB]">GitHub</button>
+                <button onClick={handleToyLive} className="text-white btn btn-primary border border-[#54FFBB] hover:bg-[#54FFBB] hover:text-black rounded-md">Live Preview</button>
+                <button onClick={handleToyGitHub} className="text-black  bg-[#54FFBB] btn btn-primary rounded-md hover:bg-inherit hover:text-white border border-[#54FFBB]">GitHub</button>
             </div>
 
             {/* zestful website */}
@@ -161,8 +161,8 @@ const Projects = () => {
             </div>
 
             <div className="flex justify-center gap-5 mt-8 mb-24">
-                <button onClick={handleZestfulLive} className="text-white py-4 border border-[#54FFBB] hover:bg-[#54FFBB] hover:text-black px-8 rounded-md">Live Preview</button>
-                <button onClick={handleZestfulGitHub} className="text-black py-4 bg-[#54FFBB] px-8 rounded-md hover:bg-inherit hover:text-white border border-[#54FFBB]">GitHub</button>
+                <button onClick={handleZestfulLive} className="text-white btn btn-primary border border-[#54FFBB] hover:bg-[#54FFBB] hover:text-black  rounded-md">Live Preview</button>
+                <button onClick={handleZestfulGitHub} className="text-black  bg-[#54FFBB]  btn btn-primary rounded-md hover:bg-inherit hover:text-white border border-[#54FFBB]">GitHub</button>
             </div>
         </div>
     );

@@ -16,6 +16,7 @@
     "react": "^18.2.0",
     "react-animated-progress-bar": "^1.1.2",
     "react-dom": "^18.2.0",
+    "react-fast-marquee": "^1.6.0",
     "react-icons": "^4.9.0",
     "react-parallax": "^3.5.1",
     "react-typed": "^1.2.0"
