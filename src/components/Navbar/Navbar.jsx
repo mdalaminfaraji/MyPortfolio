@@ -19,27 +19,27 @@ const Navbar = () => {
             <div className='bg-[#1e1546] inline-flex gap-8 px-16 py-5 z-20 fixed left-1/2 transform -translate-x-1/2 bottom-8 rounded-full shadow-lg lg:bottom-5 lg:left-2/3 space-x-10'>
                 <a
                     className={active === '#' ? 'active icon-color' : ''}
-                    href='#'
+                    href='#' title='Home'
                     onClick={() => setActive('#')}
                 >
                     <AiOutlineHome />
                 </a>
                 <a
-                    href='#about'
+                    href='#about' title='About Me'
                     onClick={() => setActive('#about')}
                     className={active === '#about' ? 'active icon-color' : ''}
                 >
                     <AiOutlineUser />
                 </a>
                 <a
-                    href='#projects'
+                    href='#projects' title='Projects'
                     onClick={() => setActive('#projects')}
                     className={active === '#projects' ? 'active icon-color' : ''}
                 >
                     <AiOutlineProject />
                 </a>
                 <a
-                    href='#contact'
+                    href='#contact' title='Contact'
                     onClick={() => setActive('#contact')}
                     className={active === '#contact' ? 'active icon-color' : ''}
                 >
