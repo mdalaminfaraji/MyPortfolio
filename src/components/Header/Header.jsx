@@ -12,7 +12,7 @@ const Header = () => {
     //     window.location.href = '#projects';
     // }
     return (
-        <div className="md:h-[100vh] pt-16 mb-10">
+        <div className="md:h-[100vh] pt-16 lg:mb-10">
             <div className="px-5" data-aos="fade-down" data-aos-duration="2000">
                 <h1 className="text-white text-5xl uppercase">Hey, I&apos;m <br /><span className='bg-gradient-to-r from-[#FFFFFF] via-[#54FFBB] to-[#FFFFFF] text-transparent bg-clip-text'> <ReactTyped
                                     className='text-3xl bg-gradient-to-r from-[#FFFFFF] via-[#54FFBB] to-[#FFFFFF] text-transparent bg-clip-text'
